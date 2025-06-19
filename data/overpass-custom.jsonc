@@ -1,0 +1,55 @@
+{
+    "osm": {
+        "ShinHigaOtachi2024": {
+            "overpass": [
+                "nwr[\"amenity\"]",
+                "nwr[\"shop\"]",
+                "nwr[\"craft\"]",
+                "nwr[\"tourism\"]",
+                "nwr[\"office\"]",
+                "node[\"railway\"=\"station\"]"
+            ],
+            "tags": [
+                "shop",
+                "amenity!=parking",
+                "amenity!=vending_machine",
+                "amenity!=parking_entrance",
+                "amenity!=bench",
+                "craft",
+                "office",
+                "amenity",
+                "tourism",
+                "railway"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "stroke": "#A06060",
+                "stroke-width": 1
+            },
+            "titles": [
+                "name",
+                "operator",
+                "note"
+            ]
+        },
+        "Green": {
+            "overpass": [
+                "nwr[\"natural\"=\"tree_row\"]",
+                "nwr[\"barrier\"=\"hedge\"]"
+            ],
+            "tags": [
+                "natural",
+                "barrier"
+            ],
+            "expression": {
+                "poiView": false, // true時はアイコン表示
+                "stroke": "#50A050",
+                "stroke-width": 3
+            },
+            "titles": [
+                "name",
+                "operator"
+            ]
+        }
+    }
+}
