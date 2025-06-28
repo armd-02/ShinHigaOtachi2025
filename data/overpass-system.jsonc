@@ -3,8 +3,7 @@
         "*": {
             "tags": [],
             "titles": [
-                "name",
-                "operator"
+                "name"
             ]
         },
         "wikipedia": {
@@ -22,6 +21,7 @@
                 "wikipedia"
             ],
             "expression": {
+                "poiView": true, // true時はアイコン表示
                 "stroke": "#7070C0",
                 "stroke-width": 1
             },

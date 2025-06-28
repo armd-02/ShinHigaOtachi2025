@@ -1,6 +1,6 @@
 {
     "activities": {
-        "ShinHigaOtachi2024": {
+        "ShinMikuOtachi2025": {
             "header": "",
             "footer": "",
             "form": {
@@ -14,6 +14,11 @@
                     "type": "text",
                     "gsheet": "title"
                 },
+                "keyword": {
+                    "glot": "act_keyword",
+                    "type": "text",
+                    "gsheet": "keyword"
+                },
                 "memo": {
                     "glot": "act_memo",
                     "type": "textarea",
@@ -24,9 +29,9 @@
                     "type": "textarea",
                     "gsheet": "address"
                 },
-                "attention":{
-                    "glot":"act_attention",
-                    "type":"attention"
+                "attention": {
+                    "glot": "act_attention",
+                    "type": "attention"
                 },
                 "picture_url1": {
                     "glot": "act_picture_url1",

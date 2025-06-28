@@ -1,0 +1,4603 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.5 1bd436f1",
+    "osm3s": {
+        "timestamp_osm_base": "2025-06-28T13:26:00Z",
+        "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+        {
+            "type": "node",
+            "id": 3199588062,
+            "lat": 34.7414607,
+            "lon": 135.4970698,
+            "timestamp": "2025-06-10T04:01:36Z",
+            "version": 5,
+            "changeset": 167425161,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "4番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "11",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-10",
+                "contact:instagram": "jinqro_soba",
+                "cuisine": "soba",
+                "name": "甚九郎"
+            }
+        },
+        {
+            "type": "node",
+            "id": 3403606793,
+            "lat": 34.7445558,
+            "lon": 135.4976868,
+            "timestamp": "2025-06-28T11:22:26Z",
+            "version": 6,
+            "changeset": 168222804,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "1番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "35号",
+                "addr:neighbourhood": "6丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "branch": "東三国店",
+                "check_date": "2025-06-13",
+                "name": "吉鳥",
+                "name:ja": "吉鳥",
+                "phone": "06-6391-3060"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10044742347,
+            "lat": 34.7400123,
+            "lon": 135.5060998,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 4,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "17番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "3号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "533-0031",
+                "addr:province": "大阪府",
+                "addr:quarter": "西淡路",
+                "addr:suburb": "東淀川区",
+                "amenity": "cafe",
+                "check_date": "2025-06-14",
+                "contact:instagram": "kissaaoiclub",
+                "level": "0",
+                "name": "喫茶あおい",
+                "opening_hours": "Mo,We-Su 11:00-20:00",
+                "outdoor_seating": "no",
+                "website": "https://kissaaoiclub.com/",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10159597169,
+            "lat": 34.7484742,
+            "lon": 135.4915614,
+            "timestamp": "2024-11-04T03:06:40Z",
+            "version": 5,
+            "changeset": 158724098,
+            "user": "Yodogawa residents",
+            "uid": 21448271,
+            "tags": {
+                "addr:block_number": "15番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "1号",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0001",
+                "addr:province": "大阪府",
+                "addr:quarter": "十八条",
+                "addr:suburb": "淀川区",
+                "amenity": "social_facility",
+                "check_date": "2024-09-30",
+                "contact:instagram": "cocokara100",
+                "name": "ここから100",
+                "social_facility": "outreach",
+                "social_facility:for": "senior",
+                "website": "https://cocokara100.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10159629410,
+            "lat": 34.7443613,
+            "lon": 135.4949487,
+            "timestamp": "2024-11-05T15:48:37Z",
+            "version": 8,
+            "changeset": 158784595,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "12番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "15号",
+                "addr:neighbourhood": "6丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "social_facility",
+                "contact:instagram": "cocokara100",
+                "name": "ここコミュ",
+                "operator": "特定非営利活動法人ここから100",
+                "social_facility": "outreach",
+                "website": "https://cocokara100.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10581060741,
+            "lat": 34.7378285,
+            "lon": 135.4992584,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 5,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "19番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "23号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0003",
+                "addr:province": "大阪府",
+                "addr:quarter": "宮原",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "mosaique_salon",
+                "name": "MOSAIQUE",
+                "shop": "hairdresser",
+                "website": "http://www.mosaique.co.jp"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10885708495,
+            "lat": 34.7364101,
+            "lon": 135.4868405,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 5,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "18",
+                "addr:city": "大阪市",
+                "addr:housenumber": "5",
+                "addr:neighbourhood": "三国本町三丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-18",
+                "contact:instagram": "cakeshopsun",
+                "craft": "confectionery",
+                "cuisine": "cake",
+                "name": "CAKE SHOP SUN",
+                "shop": "pastry",
+                "website": "https://www.sun2005.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 10927885661,
+            "lat": 34.7363644,
+            "lon": 135.4939976,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 6,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "35号1階",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0004",
+                "addr:province": "大阪府",
+                "addr:quarter": "西宮原",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-18",
+                "contact:instagram": "choisir_natural",
+                "level": "0",
+                "name": "choisir",
+                "name:ja": "ショワジール",
+                "shop": "wine",
+                "website": "https://choisir.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11329292646,
+            "lat": 34.7416739,
+            "lon": 135.4909133,
+            "timestamp": "2025-06-10T03:22:32Z",
+            "version": 4,
+            "changeset": 167424586,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "１３番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "7",
+                "addr:neighbourhood": "１丁目",
+                "addr:postcode": "5320006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "shinosaka_office",
+                "name": "新大阪眼鏡店",
+                "opening_hours": "10:00-18:30",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:paypay": "yes",
+                "phone": "06-6393-0836",
+                "shop": "optician",
+                "website": "https://www.matsukura-megane.co.jp/index.html#shinoosaka"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11652328928,
+            "lat": 34.7415374,
+            "lon": 135.4993476,
+            "timestamp": "2025-06-14T00:47:54Z",
+            "version": 3,
+            "changeset": 167596081,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "32番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "18号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-13",
+                "level": "0",
+                "name": "Olive（オリーブ）",
+                "shop": "florist"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11806323498,
+            "lat": 34.7417282,
+            "lon": 135.4922360,
+            "timestamp": "2025-06-10T03:22:32Z",
+            "version": 6,
+            "changeset": 167424586,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "１７番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "１号 嶋谷マンション1階",
+                "addr:neighbourhood": "１丁目",
+                "addr:postcode": "5320006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "kashikoubou.plus",
+                "craft": "confectionery",
+                "cuisine": "cake;焼き菓子",
+                "drive_through": "no",
+                "name": "菓子工房 plus",
+                "opening_hours": "Mo-Fr 11:00-17:00",
+                "phone": "080-5757-8710",
+                "shop": "confectionery",
+                "takeaway": "only"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11888032073,
+            "lat": 34.7414878,
+            "lon": 135.4966785,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 5,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "7番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "15号 1階",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-13",
+                "contact:instagram": "spicyclub_in_osaka",
+                "name": "SPICY CLUB",
+                "name:ja": "SPICY CLUB",
+                "website": "https://www.instagram.com/spicyclub_in_osaka?igsh=ZjBvcXJocm1meGtm&utm_source=qr"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11888032081,
+            "lat": 34.7398947,
+            "lon": 135.4936566,
+            "timestamp": "2024-09-22T06:35:13Z",
+            "version": 3,
+            "changeset": 156937134,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "20",
+                "addr:city": "大阪市",
+                "addr:housenumber": "15",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "5320002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2024-08-17",
+                "contact:instagram": "horang_i2023",
+                "cuisine": "coffee_shop;sandwich;bakery",
+                "name": "cafe HORANG-I",
+                "name:ja": "カフェ　ホランイ",
+                "opening_hours": "Mo,Su,PH off; Tu-Fr 11:00-19:00; Sa 11:00-18:00",
+                "outdoor_seating": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11889023117,
+            "lat": 34.7414369,
+            "lon": 135.4970813,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 7,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "4番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "11号 東明ビル6階",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "beauty": "nails",
+                "check_date": "2025-06-18",
+                "contact:instagram": "mahalo_nail__teru",
+                "internet_access": "no",
+                "name": "Beauty Salon Mahalo",
+                "opening_hours": "11:00-21:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "beauty"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11902578701,
+            "lat": 34.7413748,
+            "lon": 135.4972780,
+            "timestamp": "2024-09-10T07:48:19Z",
+            "version": 2,
+            "changeset": 156426397,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "4番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "15号 コラム新大阪2階202",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-05-14",
+                "internet_access": "no",
+                "level": "2",
+                "name": "STEEZ hair works",
+                "name:ja": "スティーズ",
+                "shop": "hairdresser",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11921095931,
+            "lat": 34.7386009,
+            "lon": 135.4848401,
+            "timestamp": "2024-09-10T07:36:29Z",
+            "version": 2,
+            "changeset": 156425983,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "20号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2024-05-21",
+                "cuisine": "udon;soba;丼",
+                "name": "うどん処いづも",
+                "opening_hours": "Mo-Fr 11:00-15:00,17:30-21:00; Sa-Su,Mo[4] off",
+                "phone": "+81 661519570"
+            }
+        },
+        {
+            "type": "node",
+            "id": 11921174901,
+            "lat": 34.7388451,
+            "lon": 135.4864210,
+            "timestamp": "2025-06-18T10:14:32Z",
+            "version": 12,
+            "changeset": 167774967,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "17番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "3号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-07",
+                "contact:instagram": "1004_m1kun1_",
+                "contact:twitter": "1004_m1kun1_",
+                "cuisine": "korean",
+                "name": "1004〜てんし〜",
+                "opening_hours": "Mo,Su off; Tu-Sa 11:30-14:30,17:30-22:00",
+                "phone": "+81 678975733",
+                "wheelchair": "limited"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12139657247,
+            "lat": 34.7442041,
+            "lon": 135.4991540,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "31番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "12号",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "kaminomise_micha",
+                "name": "髪の店mi-cha",
+                "shop": "hairdresser"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12139662094,
+            "lat": 34.7425270,
+            "lon": 135.4989727,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 3,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "37番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "14号202号室",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-08-27",
+                "contact:instagram": "hs-ease.com",
+                "name": "ヘアーサロン EASE",
+                "shop": "hairdresser"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12139667181,
+            "lat": 34.7330147,
+            "lon": 135.4935069,
+            "timestamp": "2025-06-18T10:16:03Z",
+            "version": 4,
+            "changeset": 167775031,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "5番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "33号 新大阪飯田ビル1階",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0004",
+                "addr:province": "大阪府",
+                "addr:quarter": "西宮原",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-08-27",
+                "contact:instagram": "miyuki.seino_official",
+                "contact:twitter": "seino_miyuki",
+                "fixme:type": "事務代行",
+                "name": "株式会社MUSUBU",
+                "office": "company"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12139742478,
+            "lat": 34.7352902,
+            "lon": 135.4889416,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "6番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "37号",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0004",
+                "addr:province": "大阪府",
+                "addr:quarter": "西宮原",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-18",
+                "contact:instagram": "valoir1029",
+                "craft": "confectionery",
+                "cuisine": "洋菓子",
+                "drive_through": "no",
+                "name": "VALOIR",
+                "name:ja": "ヴァルワール"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141026024,
+            "lat": 34.7442985,
+            "lon": 135.4949887,
+            "timestamp": "2025-06-18T10:14:32Z",
+            "version": 9,
+            "changeset": 167774967,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "12番",
+                "addr:city": "大阪市",
+                "addr:floor": "東三国6-12-15 2F",
+                "addr:housenumber": "15号",
+                "addr:neighbourhood": "6丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "studio",
+                "check_date": "2024-08-28",
+                "contact:instagram": "fmhime772",
+                "contact:twitter": "fmhime772",
+                "name": "エフエムひめ",
+                "name:ja": "エフエムひめ",
+                "studio": "radio",
+                "website": "https://owaraipro.wixsite.com/honjopro/blank-1"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141030950,
+            "lat": 34.7454884,
+            "lon": 135.4929916,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 4,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "18番",
+                "addr:city": "大阪市",
+                "addr:floor": "東三国6-18-9",
+                "addr:housenumber": "9号",
+                "addr:neighbourhood": "6丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2024-08-28",
+                "fixme:type": "喫茶店",
+                "name": "ASSIST 東三国店",
+                "name:ja": "ASSIST 東三国店",
+                "outdoor_seating": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141088959,
+            "lat": 34.7416414,
+            "lon": 135.4911304,
+            "timestamp": "2025-06-10T03:22:32Z",
+            "version": 5,
+            "changeset": 167424586,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "１３番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "4",
+                "addr:neighbourhood": "１丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "hocomaru_workshop",
+                "craft": "handicraft",
+                "name": "まちかど工房 ほこまぁる",
+                "operator:type": "private",
+                "shop": "craft"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141108686,
+            "lat": 34.7416710,
+            "lon": 135.4920297,
+            "timestamp": "2024-11-04T16:25:05Z",
+            "version": 4,
+            "changeset": 158747850,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "１７番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "３号",
+                "addr:neighbourhood": "１丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "contact:instagram": "saronn_mamii",
+                "name": "カイロプラクティック マミー",
+                "shop": "massage",
+                "website": "https://chiropractic-mammy.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141113922,
+            "lat": 34.7388678,
+            "lon": 135.4841042,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 3,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "5番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "3号 ヤマモト呉服店ビル1F",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-18",
+                "contact:instagram": "hanayoshi0220",
+                "fixme:type": "居酒屋",
+                "name": "鉄板バルHANAYOSHI",
+                "name:ja": "鉄板バルHANAYOSHI"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141117386,
+            "lat": 34.7384232,
+            "lon": 135.4833331,
+            "timestamp": "2025-06-10T03:55:45Z",
+            "version": 3,
+            "changeset": 167425069,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "8番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "19号 三国ビル1階",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2025-06-10",
+                "fixme:type": "喫茶店",
+                "name": "ASSIST阪急三国駅前店",
+                "outdoor_seating": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141119152,
+            "lat": 34.7385805,
+            "lon": 135.4847123,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 5,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "18号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-08-28",
+                "contact:instagram": "gekiyasu.komachi",
+                "fixme:type": "コスメ",
+                "name": "ゲキヤスコマチ",
+                "shop": "houseware"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12141177241,
+            "lat": 34.7441325,
+            "lon": 135.4924068,
+            "timestamp": "2024-11-04T02:26:19Z",
+            "version": 4,
+            "changeset": 158723583,
+            "user": "Yodogawa residents",
+            "uid": 21448271,
+            "tags": {
+                "addr:block_number": "21番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "43号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-08-28",
+                "name": "まごころ不動産 株式会社REAL",
+                "office": "estate_agent",
+                "website": "http://magocoro-real.com"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12143279382,
+            "lat": 34.7366011,
+            "lon": 135.4836383,
+            "timestamp": "2024-11-04T02:24:34Z",
+            "version": 4,
+            "changeset": 158723556,
+            "user": "Yodogawa residents",
+            "uid": 21448271,
+            "tags": {
+                "addr:block_number": "36番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "18号 2階",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "check_date": "2024-08-29",
+                "name": "【姿勢改善×肩こり専門】らくりら 三国店",
+                "shop": "massage",
+                "website": "https://beauty.hotpepper.jp/kr/slnH000691754/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167450569,
+            "lat": 34.7380565,
+            "lon": 135.4851420,
+            "timestamp": "2025-06-10T04:01:36Z",
+            "version": 5,
+            "changeset": 167425161,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "26番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "4号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "addr:unit": "3",
+                "check_date": "2025-06-10",
+                "name": "かじき整体院",
+                "shop": "massage",
+                "website": "https://bit.ly/2ODIHWt"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167450570,
+            "lat": 34.7416782,
+            "lon": 135.4917510,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "14番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "1号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2025-06-10",
+                "contact:instagram": "mayumi.s.1954",
+                "name": "カフェ パーク",
+                "outdoor_seating": "no"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167450571,
+            "lat": 34.7374913,
+            "lon": 135.4827959,
+            "timestamp": "2024-11-04T02:22:52Z",
+            "version": 3,
+            "changeset": 158723532,
+            "user": "Yodogawa residents",
+            "uid": 21448271,
+            "tags": {
+                "addr:block_number": "10番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "17号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0033",
+                "addr:province": "大阪府",
+                "addr:quarter": "新高",
+                "addr:suburb": "淀川区",
+                "amenity": "pub",
+                "check_date": "2024-09-05",
+                "contact:instagram": "shukou0329",
+                "name": "スタンディングバー酒甲",
+                "website": "https://shu-kou.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167450573,
+            "lat": 34.7380625,
+            "lon": 135.4851760,
+            "timestamp": "2025-06-10T03:55:45Z",
+            "version": 5,
+            "changeset": 167425069,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "26番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "4号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-10",
+                "contact:instagram": "miku_salon_de_prima",
+                "name": "Salon de Prima サロンドプリマ",
+                "shop": "massage"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167574868,
+            "lat": 34.7400474,
+            "lon": 135.4924124,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "2番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "35号 111",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "contact:instagram": "gute2015",
+                "craft": "confectionery",
+                "cuisine": "cake",
+                "drive_through": "no",
+                "name": "パティスリー グーテ",
+                "name:en": "patisserie gu-te"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12167610786,
+            "lat": 34.7399121,
+            "lon": 135.5010006,
+            "timestamp": "2025-06-10T03:13:52Z",
+            "version": 4,
+            "changeset": 167424483,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "20番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "2号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "fast_food",
+                "contact:instagram": "omusubi_on",
+                "cuisine": "おにぎり;regional",
+                "drive_through": "no",
+                "name": "恩結び-on-",
+                "takeaway": "yes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12168088286,
+            "lat": 34.7390375,
+            "lon": 135.4892178,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "7",
+                "addr:city": "大阪市",
+                "addr:housenumber": "9",
+                "addr:neighbourhood": "西三国二丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:suburb": "淀川区",
+                "contact:instagram": "saikoudou",
+                "craft": "confectionery",
+                "cuisine": "japanese",
+                "name": "彩甲堂",
+                "shop": "confectionery",
+                "website": "https://saikoudou-osaka.com/wagashi/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12168207781,
+            "lat": 34.7388391,
+            "lon": 135.4864963,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 4,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "17番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "2号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-07",
+                "clothes": "children",
+                "contact:instagram": "reminisce_2021 8end.cafe",
+                "name": "∞end",
+                "name:ja": "エイトエンド",
+                "shop": "clothes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12168219654,
+            "lat": 34.7442205,
+            "lon": 135.4923919,
+            "timestamp": "2024-09-10T14:09:07Z",
+            "version": 1,
+            "changeset": 156442750,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "21番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "43号 103",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "social_facility",
+                "name": "合同会社コージープレイス",
+                "social_facility": "ambulatory_care"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12168233080,
+            "lat": 34.7442933,
+            "lon": 135.4923703,
+            "timestamp": "2024-09-23T02:52:33Z",
+            "version": 2,
+            "changeset": 156974696,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "addr:block_number": "21番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "43号 105号室",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "social_facility",
+                "name": "株式会社ハートレスト",
+                "social_facility": "healthcare"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12193808822,
+            "lat": 34.7398453,
+            "lon": 135.4907109,
+            "timestamp": "2024-09-23T04:50:51Z",
+            "version": 1,
+            "changeset": 156976468,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "29号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "community_centre",
+                "name": "西淀川・淀川健康友の会 ふれあい三国支部 ふれあいセンター"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12204987985,
+            "lat": 34.7384303,
+            "lon": 135.4934829,
+            "timestamp": "2025-06-14T00:47:54Z",
+            "version": 4,
+            "changeset": 167596081,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "2番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "1 1階",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0004",
+                "addr:province": "大阪府",
+                "addr:quarter": "西宮原",
+                "addr:room": "102",
+                "addr:suburb": "淀川区",
+                "amenity": "language_school",
+                "name": "ECCジュニア西宮原3丁目教室",
+                "website": "https://eccjuniorbs.jp/ht272129/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12211634849,
+            "lat": 34.7423094,
+            "lon": 135.4980767,
+            "timestamp": "2025-06-13T15:41:56Z",
+            "version": 4,
+            "changeset": 167581131,
+            "user": "b-jazz-bot",
+            "uid": 9451067,
+            "tags": {
+                "addr:block_number": "2番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "19号",
+                "addr:neighbourhood": "5丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "cafe",
+                "check_date": "2025-06-10",
+                "contact:instagram": "KOUNOU-COFFEE",
+                "cuisine": "coffee_shop",
+                "name": "KOUNOU-COFFEE",
+                "outdoor_seating": "no",
+                "website": "https://kounou-coffee.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12309539297,
+            "lat": 34.7334227,
+            "lon": 135.4899549,
+            "timestamp": "2024-11-03T14:56:10Z",
+            "version": 1,
+            "changeset": 158703104,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "tags": {
+                "contact:instagram": "holidayinn_shinosaka",
+                "name": "ホリデイ・イン&スイーツ新大阪",
+                "tourism": "hotel",
+                "website": "https://hisuite-shinosaka.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12373269056,
+            "lat": 34.7440350,
+            "lon": 135.4941078,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 3,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "21番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "34号",
+                "addr:neighbourhood": "6丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-13",
+                "contact:instagram": "amazakebakery.girasole",
+                "name": "甘酒Bakery Girasole",
+                "name:ja": "ジラソーレ",
+                "website": "https://g.co/kgs/x2UQwJ6"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12893872342,
+            "lat": 34.7384412,
+            "lon": 135.4843592,
+            "timestamp": "2025-06-18T10:14:32Z",
+            "version": 4,
+            "changeset": 167774967,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "7号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-13",
+                "contact:instagram": "astilhotel_shinosaka",
+                "contact:twitter": "ah_shinosaka",
+                "name": "ASTIL HOTEL",
+                "name:ja": "アスティルホテル新大阪プレシャス",
+                "tourism": "hotel",
+                "website": "https://www.astilhotel.jp/shinosaka/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12893878419,
+            "lat": 34.7383800,
+            "lon": 135.4858291,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 3,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "2番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "15号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "bar",
+                "check_date": "2025-06-07",
+                "contact:instagram": "snack.shizu",
+                "name": "スナック　静"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12893919687,
+            "lat": 34.7383387,
+            "lon": 135.4837732,
+            "timestamp": "2025-06-13T03:31:21Z",
+            "version": 3,
+            "changeset": 167557084,
+            "user": "Yodogawa residents",
+            "uid": 21448271,
+            "tags": {
+                "addr:block_number": "4番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "6号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-13",
+                "contact:instagram": "tacotiger1202",
+                "cuisine": "タコス;coffee_shop",
+                "name": "タコタイガー",
+                "website": "https://taco-tiger.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12893931371,
+            "lat": 34.7381588,
+            "lon": 135.4858758,
+            "timestamp": "2025-06-14T00:47:54Z",
+            "version": 3,
+            "changeset": 167596081,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "25番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "18号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-13",
+                "contact:instagram": "uia.mikuni",
+                "name": "uia",
+                "name:ja": "uia",
+                "shop": "clothes"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12894107250,
+            "lat": 34.7418295,
+            "lon": 135.4971622,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 3,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "6番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "10号",
+                "addr:neighbourhood": "5丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-13",
+                "contact:instagram": "carnelian2955",
+                "name": "洋食カーネリアン",
+                "name:ja": "洋食カーネリアン"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12894108608,
+            "lat": 34.7418472,
+            "lon": 135.4969958,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 5,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "6番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "2号 201",
+                "addr:neighbourhood": "5丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "check_date": "2025-06-13",
+                "contact:instagram": "solve_beauty_salon",
+                "name": "SOLVE beauty salon",
+                "name:ja": "ソーブ",
+                "shop": "beauty"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12894386267,
+            "lat": 34.7391234,
+            "lon": 135.4903237,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 3,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "3番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "14号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0006",
+                "addr:province": "大阪府",
+                "addr:quarter": "西三国",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-07",
+                "contact:instagram": "kokorahen_",
+                "cuisine": "ramen",
+                "name": "ここらへん"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12901109844,
+            "lat": 34.7385281,
+            "lon": 135.4936213,
+            "timestamp": "2025-06-14T00:47:54Z",
+            "version": 2,
+            "changeset": 167596081,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "２番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "１号 ７０１",
+                "addr:neighbourhood": "３丁目",
+                "addr:postcode": "532-0004",
+                "addr:province": "大阪府",
+                "addr:quarter": "西宮原",
+                "addr:suburb": "淀川区",
+                "beauty": "spa",
+                "check_date": "2025-06-10",
+                "contact:instagram": "nie.mattariii",
+                "name": "にぇんチ",
+                "shop": "beauty"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12901252158,
+            "lat": 34.7352799,
+            "lon": 135.4818890,
+            "timestamp": "2025-06-11T11:39:16Z",
+            "version": 2,
+            "changeset": 167487274,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "tags": {
+                "addr:block_number": "1",
+                "addr:city": "大阪市",
+                "addr:housenumber": "43",
+                "addr:neighbourhood": "新高四丁目",
+                "addr:postcode": "532-0033",
+                "addr:province": "大阪府",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-10",
+                "contact:instagram": "ramenstandrr",
+                "cuisine": "noodle;ramen",
+                "cuisine:ja": "ラーメン",
+                "name": "らーめんstand R&R3号店"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12905884168,
+            "lat": 34.7355087,
+            "lon": 135.4814170,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 2,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "10番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "25号",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0033",
+                "addr:province": "大阪府",
+                "addr:quarter": "新高",
+                "addr:suburb": "淀川区",
+                "contact:instagram": "minkakokusanzai",
+                "craft": "carpenter",
+                "name": "建築士事務所 民家",
+                "website": "https://min-ka.jp/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12911846769,
+            "lat": 34.7360940,
+            "lon": 135.4851314,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 2,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "16番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "35号",
+                "addr:neighbourhood": "2丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "amenity": "restaurant",
+                "check_date": "2025-06-13",
+                "contact:instagram": "cattleya_truck",
+                "cuisine": "asian",
+                "fixme:type": "キッチンカー",
+                "name": "キッチンカトレア"
+            }
+        },
+        {
+            "type": "node",
+            "id": 12911903330,
+            "lat": 34.7411230,
+            "lon": 135.4973426,
+            "timestamp": "2025-06-14T01:19:59Z",
+            "version": 2,
+            "changeset": 167596403,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "tags": {
+                "addr:block_number": "4番地",
+                "addr:city": "大阪市",
+                "addr:housenumber": "17号 2階、3階",
+                "addr:neighbourhood": "4丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "beauty": "spa",
+                "check_date": "2025-06-13",
+                "contact:instagram": "luce_yomogimushi",
+                "contact:website": "https://beauty.hotpepper.jp/kr/slnH000651574/?cstt=2&wak=KPSC200404_s_link_salontop",
+                "fixme:type": "サロン",
+                "name": "health＆beauty Luce",
+                "name:ja": "ルーチェ",
+                "shop": "beauty"
+            }
+        },
+        {
+            "type": "way",
+            "id": 271389852,
+            "timestamp": "2024-09-23T03:05:20Z",
+            "version": 6,
+            "changeset": 156974873,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                2763436090,
+                2763436091,
+                2763436093,
+                2763436094,
+                2763436095,
+                2763436090
+            ],
+            "tags": {
+                "addr:block_number": "32番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "4号",
+                "addr:neighbourhood": "1丁目",
+                "addr:postcode": "532-0002",
+                "addr:province": "大阪府",
+                "addr:quarter": "東三国",
+                "addr:suburb": "淀川区",
+                "amenity": "place_of_worship",
+                "denomination": "jodo_shinshu",
+                "name": "常光寺",
+                "religion": "buddhist"
+            }
+        },
+        {
+            "type": "way",
+            "id": 271389853,
+            "timestamp": "2015-09-06T00:13:33Z",
+            "version": 3,
+            "changeset": 33823880,
+            "user": "mfuji",
+            "uid": 659706,
+            "nodes": [
+                2763436096,
+                2763436097,
+                2763436098,
+                2763436099,
+                2763436100,
+                2763436101,
+                2763436096
+            ],
+            "tags": {
+                "amenity": "place_of_worship",
+                "denomination": "obaku",
+                "name": "自敬寺",
+                "religion": "buddhist"
+            }
+        },
+        {
+            "type": "way",
+            "id": 272227742,
+            "timestamp": "2025-06-18T11:16:23Z",
+            "version": 6,
+            "changeset": 167777442,
+            "user": "t_matsukura",
+            "uid": 21292672,
+            "nodes": [
+                2771832435,
+                2771832437,
+                2771832454,
+                2771832456,
+                2771832475,
+                2771832438,
+                2771832439,
+                2771832469,
+                2771832470,
+                2771832471,
+                2771832450,
+                2771832451,
+                2771832463,
+                2771832440,
+                2771832441,
+                2771832442,
+                2771832443,
+                2771832444,
+                11472376715,
+                2771832435
+            ],
+            "tags": {
+                "addr:block_number": "35番",
+                "addr:city": "大阪市",
+                "addr:housenumber": "8号",
+                "addr:neighbourhood": "3丁目",
+                "addr:postcode": "532-0005",
+                "addr:province": "大阪府",
+                "addr:quarter": "三国本町",
+                "addr:suburb": "淀川区",
+                "amenity": "college",
+                "contact:instagram": "osakabunka",
+                "name": "学校法人ミクニ学園 大阪文化服装学院",
+                "source": "Bing,2011-4",
+                "website": "https://www.osaka-bunka.com/"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2763436090,
+            "lat": 34.7409861,
+            "lon": 135.4988688
+        },
+        {
+            "type": "node",
+            "id": 2763436091,
+            "lat": 34.7409856,
+            "lon": 135.4991727
+        },
+        {
+            "type": "node",
+            "id": 2763436093,
+            "lat": 34.7406938,
+            "lon": 135.4992272
+        },
+        {
+            "type": "node",
+            "id": 2763436094,
+            "lat": 34.7406834,
+            "lon": 135.4989492
+        },
+        {
+            "type": "node",
+            "id": 2763436095,
+            "lat": 34.7407353,
+            "lon": 135.4988693
+        },
+        {
+            "type": "node",
+            "id": 2763436096,
+            "lat": 34.7421107,
+            "lon": 135.4881782
+        },
+        {
+            "type": "node",
+            "id": 2763436097,
+            "lat": 34.7421002,
+            "lon": 135.4880872
+        },
+        {
+            "type": "node",
+            "id": 2763436098,
+            "lat": 34.7418236,
+            "lon": 135.4881590
+        },
+        {
+            "type": "node",
+            "id": 2763436099,
+            "lat": 34.7417497,
+            "lon": 135.4881890
+        },
+        {
+            "type": "node",
+            "id": 2763436100,
+            "lat": 34.7417881,
+            "lon": 135.4884938
+        },
+        {
+            "type": "node",
+            "id": 2763436101,
+            "lat": 34.7421304,
+            "lon": 135.4884542
+        },
+        {
+            "type": "node",
+            "id": 2771832435,
+            "lat": 34.7360113,
+            "lon": 135.4839283
+        },
+        {
+            "type": "node",
+            "id": 2771832437,
+            "lat": 34.7360698,
+            "lon": 135.4844482
+        },
+        {
+            "type": "node",
+            "id": 2771832438,
+            "lat": 34.7364524,
+            "lon": 135.4844305
+        },
+        {
+            "type": "node",
+            "id": 2771832439,
+            "lat": 34.7364410,
+            "lon": 135.4841645
+        },
+        {
+            "type": "node",
+            "id": 2771832440,
+            "lat": 34.7362354,
+            "lon": 135.4840698
+        },
+        {
+            "type": "node",
+            "id": 2771832441,
+            "lat": 34.7362351,
+            "lon": 135.4840569
+        },
+        {
+            "type": "node",
+            "id": 2771832442,
+            "lat": 34.7362343,
+            "lon": 135.4840164
+        },
+        {
+            "type": "node",
+            "id": 2771832443,
+            "lat": 34.7360559,
+            "lon": 135.4840330
+        },
+        {
+            "type": "node",
+            "id": 2771832444,
+            "lat": 34.7360421,
+            "lon": 135.4839253
+        },
+        {
+            "type": "node",
+            "id": 2771832450,
+            "lat": 34.7363813,
+            "lon": 135.4838898
+        },
+        {
+            "type": "node",
+            "id": 2771832451,
+            "lat": 34.7363862,
+            "lon": 135.4840569
+        },
+        {
+            "type": "node",
+            "id": 2771832454,
+            "lat": 34.7360896,
+            "lon": 135.4844468
+        },
+        {
+            "type": "node",
+            "id": 2771832456,
+            "lat": 34.7363519,
+            "lon": 135.4844350
+        },
+        {
+            "type": "node",
+            "id": 2771832463,
+            "lat": 34.7362965,
+            "lon": 135.4840646
+        },
+        {
+            "type": "node",
+            "id": 2771832469,
+            "lat": 34.7364405,
+            "lon": 135.4841497
+        },
+        {
+            "type": "node",
+            "id": 2771832470,
+            "lat": 34.7364320,
+            "lon": 135.4838929
+        },
+        {
+            "type": "node",
+            "id": 2771832471,
+            "lat": 34.7364317,
+            "lon": 135.4838849
+        },
+        {
+            "type": "node",
+            "id": 2771832475,
+            "lat": 34.7364008,
+            "lon": 135.4844328
+        },
+        {
+            "type": "node",
+            "id": 11472376715,
+            "lat": 34.7360261,
+            "lon": 135.4839269
+        },
+        {
+            "type": "way",
+            "id": 289038693,
+            "timestamp": "2014-06-21T12:27:21Z",
+            "version": 1,
+            "changeset": 23060726,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                2925892919,
+                2925901159
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 289288422,
+            "timestamp": "2024-06-26T15:17:42Z",
+            "version": 2,
+            "changeset": 153208704,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                2928303009,
+                2928303011,
+                12012642457,
+                2928303043
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 293124984,
+            "timestamp": "2020-04-27T15:10:38Z",
+            "version": 2,
+            "changeset": 84206908,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                2966871821,
+                7454128591,
+                2966872570
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 302241305,
+            "timestamp": "2014-09-07T10:57:25Z",
+            "version": 1,
+            "changeset": 25284392,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3064913080,
+                3064913092
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 304316792,
+            "timestamp": "2014-09-21T00:57:19Z",
+            "version": 1,
+            "changeset": 25570159,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3088438191,
+                3088438185
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 304316794,
+            "timestamp": "2014-09-21T00:57:19Z",
+            "version": 1,
+            "changeset": 25570159,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3088438198,
+                3088438195
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 304611044,
+            "timestamp": "2014-09-23T00:38:04Z",
+            "version": 1,
+            "changeset": 25615556,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3091792307,
+                3091792245
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 304611046,
+            "timestamp": "2014-09-23T00:38:04Z",
+            "version": 1,
+            "changeset": 25615556,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3091792924,
+                3091792881
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 306334679,
+            "timestamp": "2014-10-05T02:57:52Z",
+            "version": 1,
+            "changeset": 25864693,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3112086608,
+                3112086560
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 306334680,
+            "timestamp": "2014-10-05T02:57:52Z",
+            "version": 1,
+            "changeset": 25864693,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3112086640,
+                3112086753
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 306334681,
+            "timestamp": "2014-10-05T02:57:52Z",
+            "version": 1,
+            "changeset": 25864693,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3112086558,
+                3112086616
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310786788,
+            "timestamp": "2014-11-02T12:37:57Z",
+            "version": 1,
+            "changeset": 26502200,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3162715947,
+                3162715948
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310898635,
+            "timestamp": "2014-11-03T04:27:57Z",
+            "version": 1,
+            "changeset": 26518189,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164014037,
+                3164014039
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310898636,
+            "timestamp": "2014-11-13T10:13:27Z",
+            "version": 2,
+            "changeset": 26752684,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164014038,
+                3164014033
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310898637,
+            "timestamp": "2014-11-13T10:13:27Z",
+            "version": 2,
+            "changeset": 26752684,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164014043,
+                3164014044
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310916719,
+            "timestamp": "2014-11-03T08:38:28Z",
+            "version": 1,
+            "changeset": 26520719,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164215316,
+                3164215295
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310916720,
+            "timestamp": "2014-11-03T08:38:28Z",
+            "version": 1,
+            "changeset": 26520719,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164214232,
+                3164214240
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2007-09"
+            }
+        },
+        {
+            "type": "way",
+            "id": 310916721,
+            "timestamp": "2014-11-03T08:38:28Z",
+            "version": 1,
+            "changeset": 26520719,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3164215317,
+                3164215293
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312515183,
+            "timestamp": "2014-11-13T10:13:28Z",
+            "version": 2,
+            "changeset": 26752684,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3183702854,
+                3183702855
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312671645,
+            "timestamp": "2014-11-13T22:17:33Z",
+            "version": 1,
+            "changeset": 26766673,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3185397379,
+                3185397363
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312671647,
+            "timestamp": "2014-11-13T22:17:33Z",
+            "version": 1,
+            "changeset": 26766673,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3185397006,
+                3185397008
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312671648,
+            "timestamp": "2014-11-13T22:17:33Z",
+            "version": 1,
+            "changeset": 26766673,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3185397381,
+                3185397365
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312671651,
+            "timestamp": "2014-11-13T22:17:33Z",
+            "version": 1,
+            "changeset": 26766673,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3185397003,
+                3185397007
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312671652,
+            "timestamp": "2014-11-13T22:17:33Z",
+            "version": 1,
+            "changeset": 26766673,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3185397005,
+                3185397004
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312817023,
+            "timestamp": "2014-11-14T18:19:28Z",
+            "version": 1,
+            "changeset": 26783031,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3187151443,
+                3187151406
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312817024,
+            "timestamp": "2014-11-14T18:19:28Z",
+            "version": 1,
+            "changeset": 26783031,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3187151397,
+                3187151378
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312865318,
+            "timestamp": "2014-11-15T00:28:41Z",
+            "version": 1,
+            "changeset": 26789889,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3187734814,
+                3187734811
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312898493,
+            "timestamp": "2014-11-15T10:55:09Z",
+            "version": 1,
+            "changeset": 26795912,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3188189729,
+                3188189717
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2007-07"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312898495,
+            "timestamp": "2014-11-15T10:55:09Z",
+            "version": 1,
+            "changeset": 26795912,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3188189762,
+                3188189761,
+                3188189758,
+                3188189743,
+                3188189742
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2007-07"
+            }
+        },
+        {
+            "type": "way",
+            "id": 312901074,
+            "timestamp": "2014-11-15T11:24:19Z",
+            "version": 1,
+            "changeset": 26796311,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3188217564,
+                3188217567
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313308088,
+            "timestamp": "2014-11-17T21:54:09Z",
+            "version": 1,
+            "changeset": 26853565,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3192174358,
+                3192174561
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313308090,
+            "timestamp": "2014-11-17T21:54:09Z",
+            "version": 1,
+            "changeset": 26853565,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3192174563,
+                3192174567
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313907085,
+            "timestamp": "2014-11-22T01:28:37Z",
+            "version": 1,
+            "changeset": 26944022,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3199451129,
+                3199451097,
+                3199451099
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 313907089,
+            "timestamp": "2014-11-22T01:28:37Z",
+            "version": 1,
+            "changeset": 26944022,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3199451145,
+                3199451110,
+                3199451109,
+                3199451093
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314199018,
+            "timestamp": "2014-11-23T23:44:54Z",
+            "version": 1,
+            "changeset": 26985085,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202442986,
+                3202442950
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314199020,
+            "timestamp": "2014-11-23T23:44:54Z",
+            "version": 1,
+            "changeset": 26985085,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202443371,
+                3202443359
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314199022,
+            "timestamp": "2014-11-23T23:44:54Z",
+            "version": 1,
+            "changeset": 26985085,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202443266,
+                3202443248
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314199036,
+            "timestamp": "2014-11-23T23:44:55Z",
+            "version": 1,
+            "changeset": 26985085,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202442746,
+                3202442669,
+                3202437649,
+                3202437604,
+                3202437599
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314199038,
+            "timestamp": "2014-11-23T23:44:55Z",
+            "version": 1,
+            "changeset": 26985085,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202442749,
+                3202442738,
+                3202442688,
+                3202437639,
+                3202437608,
+                3202437601
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314207592,
+            "timestamp": "2014-11-24T04:03:28Z",
+            "version": 1,
+            "changeset": 26986885,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3202553683,
+                3202553692
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 314570109,
+            "timestamp": "2014-11-26T13:45:10Z",
+            "version": 1,
+            "changeset": 27045333,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3206138890,
+                3206138889
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 315099893,
+            "timestamp": "2014-11-30T05:26:27Z",
+            "version": 1,
+            "changeset": 27125126,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3211907575,
+                3211907602
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 315099894,
+            "timestamp": "2014-11-30T05:26:27Z",
+            "version": 1,
+            "changeset": 27125126,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3211907667,
+                3211907703,
+                3211907676
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 316731676,
+            "timestamp": "2014-12-10T22:41:11Z",
+            "version": 1,
+            "changeset": 27388043,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3228889233,
+                3228889234
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319347183,
+            "timestamp": "2014-12-29T03:29:37Z",
+            "version": 1,
+            "changeset": 27768217,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3257604009,
+                3257603990
+            ],
+            "tags": {
+                "barrier": "hedge",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319347194,
+            "timestamp": "2014-12-29T03:29:37Z",
+            "version": 1,
+            "changeset": 27768217,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3257603727,
+                3257603703,
+                3257603714,
+                3257603731,
+                3257603811,
+                3257603884
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319347202,
+            "timestamp": "2014-12-29T03:29:38Z",
+            "version": 1,
+            "changeset": 27768217,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3257603671,
+                3257603653,
+                3257603655,
+                3257603662,
+                3257603672,
+                3257603681,
+                3257603876
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319993916,
+            "timestamp": "2015-01-02T10:34:08Z",
+            "version": 1,
+            "changeset": 27858939,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3264992094,
+                3264992147
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319993917,
+            "timestamp": "2022-03-09T16:29:03Z",
+            "version": 2,
+            "changeset": 118285773,
+            "user": "Imagener",
+            "uid": 9322792,
+            "nodes": [
+                3264992055,
+                9566395865,
+                3264992090
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319993918,
+            "timestamp": "2015-01-02T10:34:08Z",
+            "version": 1,
+            "changeset": 27858939,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3264992158,
+                3264992177
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319993919,
+            "timestamp": "2015-01-02T10:34:08Z",
+            "version": 1,
+            "changeset": 27858939,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3264991911,
+                3264991792,
+                3264991739
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 319993924,
+            "timestamp": "2015-01-02T10:34:08Z",
+            "version": 1,
+            "changeset": 27858939,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3264991912,
+                3264992005,
+                3264992022,
+                3264992039,
+                3264992051
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing, 2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 321583414,
+            "timestamp": "2015-01-12T07:37:29Z",
+            "version": 1,
+            "changeset": 28080499,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3283428545,
+                3283428554
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 321583415,
+            "timestamp": "2015-01-12T07:37:29Z",
+            "version": 1,
+            "changeset": 28080499,
+            "user": "u_kubota",
+            "uid": 421504,
+            "nodes": [
+                3283428541,
+                3283428527
+            ],
+            "tags": {
+                "natural": "tree_row",
+                "source": "Bing,2011-4"
+            }
+        },
+        {
+            "type": "way",
+            "id": 576117703,
+            "timestamp": "2018-04-04T01:49:12Z",
+            "version": 1,
+            "changeset": 57788860,
+            "user": "HikaruKinkakuji",
+            "uid": 1878070,
+            "nodes": [
+                5526594988,
+                5526594987
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 731826920,
+            "timestamp": "2019-10-05T07:12:32Z",
+            "version": 1,
+            "changeset": 75310234,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                6853121809,
+                6853121808
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1262139872,
+            "timestamp": "2024-03-13T11:15:03Z",
+            "version": 1,
+            "changeset": 148588384,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                11727071837,
+                11727071838
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1294963015,
+            "timestamp": "2024-06-22T13:24:27Z",
+            "version": 1,
+            "changeset": 153029613,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12000717580,
+                12000717579
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1294963016,
+            "timestamp": "2024-06-22T13:24:27Z",
+            "version": 1,
+            "changeset": 153029613,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12000717582,
+                12000717581
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1327286999,
+            "timestamp": "2024-10-22T17:15:44Z",
+            "version": 1,
+            "changeset": 158221473,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12279129072,
+                12279129071
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1327287000,
+            "timestamp": "2024-10-22T17:15:44Z",
+            "version": 1,
+            "changeset": 158221473,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12279129074,
+                12279129073
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1327287001,
+            "timestamp": "2024-10-22T17:15:44Z",
+            "version": 1,
+            "changeset": 158221473,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12279129076,
+                12279129075
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1327287002,
+            "timestamp": "2024-10-22T17:15:44Z",
+            "version": 1,
+            "changeset": 158221473,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12279129078,
+                12279129077
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1337146478,
+            "timestamp": "2024-11-23T13:03:47Z",
+            "version": 1,
+            "changeset": 159498916,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12367649290,
+                12367649289
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350629634,
+            "timestamp": "2025-01-12T10:10:11Z",
+            "version": 1,
+            "changeset": 161266650,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12495610052,
+                12495610051,
+                12495610050
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350629654,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 2,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12495610219,
+                12495610218,
+                12496173520
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350629655,
+            "timestamp": "2025-01-12T10:10:11Z",
+            "version": 1,
+            "changeset": 161266650,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12495610221,
+                12495610220
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692769,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496095472,
+                12496095471
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692770,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496095474,
+                12496095473
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692771,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496095476,
+                12496095475
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692772,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496095478,
+                12496095477
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692816,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496172853,
+                12496172852
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692822,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496172868,
+                12496172867
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692833,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496172957,
+                12496172956,
+                12496172955
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692834,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496172959,
+                12496172958
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692973,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496173804,
+                12496173803
+            ],
+            "tags": {
+                "natural": "tree_row"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692978,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496173857,
+                12496173856
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692979,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496173859,
+                12496173858
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692981,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496173880,
+                12496173879
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350692982,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496173882,
+                12496173881
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350693011,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496174033,
+                12496174032
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350693013,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496174043,
+                12496174041,
+                12496174040
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350693017,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496174058,
+                12496174056,
+                12496174055
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350693022,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496174081,
+                12496174080
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1350693023,
+            "timestamp": "2025-01-12T16:19:07Z",
+            "version": 1,
+            "changeset": 161279076,
+            "user": "K_Sakanoshita",
+            "uid": 389520,
+            "nodes": [
+                12496174083,
+                12496174082
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1388782475,
+            "timestamp": "2025-05-22T13:36:42Z",
+            "version": 1,
+            "changeset": 166614099,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12855493714,
+                12855493720
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1388782476,
+            "timestamp": "2025-05-22T13:36:42Z",
+            "version": 1,
+            "changeset": 166614099,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12855493716,
+                12855493715
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1388782477,
+            "timestamp": "2025-05-22T13:36:42Z",
+            "version": 1,
+            "changeset": 166614099,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12855493718,
+                12855493717
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "way",
+            "id": 1388782478,
+            "timestamp": "2025-05-22T13:36:42Z",
+            "version": 1,
+            "changeset": 166614099,
+            "user": "Wish_F",
+            "uid": 6972989,
+            "nodes": [
+                12855493721,
+                12855493719
+            ],
+            "tags": {
+                "barrier": "hedge"
+            }
+        },
+        {
+            "type": "node",
+            "id": 2925892919,
+            "lat": 34.7357212,
+            "lon": 135.5018063
+        },
+        {
+            "type": "node",
+            "id": 2925901159,
+            "lat": 34.7378725,
+            "lon": 135.5028478
+        },
+        {
+            "type": "node",
+            "id": 2928303009,
+            "lat": 34.7371793,
+            "lon": 135.5010853
+        },
+        {
+            "type": "node",
+            "id": 2928303011,
+            "lat": 34.7372192,
+            "lon": 135.5015349
+        },
+        {
+            "type": "node",
+            "id": 2928303043,
+            "lat": 34.7373832,
+            "lon": 135.5015380
+        },
+        {
+            "type": "node",
+            "id": 2966871821,
+            "lat": 34.7403526,
+            "lon": 135.5041613
+        },
+        {
+            "type": "node",
+            "id": 2966872570,
+            "lat": 34.7419631,
+            "lon": 135.5047939
+        },
+        {
+            "type": "node",
+            "id": 3064913080,
+            "lat": 34.7405486,
+            "lon": 135.4964092
+        },
+        {
+            "type": "node",
+            "id": 3064913092,
+            "lat": 34.7405870,
+            "lon": 135.4972303
+        },
+        {
+            "type": "node",
+            "id": 3088438185,
+            "lat": 34.7401783,
+            "lon": 135.4921147
+        },
+        {
+            "type": "node",
+            "id": 3088438191,
+            "lat": 34.7402094,
+            "lon": 135.4924109
+        },
+        {
+            "type": "node",
+            "id": 3088438195,
+            "lat": 34.7402382,
+            "lon": 135.4926542
+        },
+        {
+            "type": "node",
+            "id": 3088438198,
+            "lat": 34.7402579,
+            "lon": 135.4928357
+        },
+        {
+            "type": "node",
+            "id": 3091792245,
+            "lat": 34.7263211,
+            "lon": 135.4983025
+        },
+        {
+            "type": "node",
+            "id": 3091792307,
+            "lat": 34.7265943,
+            "lon": 135.4983065
+        },
+        {
+            "type": "node",
+            "id": 3091792881,
+            "lat": 34.7310066,
+            "lon": 135.4981149
+        },
+        {
+            "type": "node",
+            "id": 3091792924,
+            "lat": 34.7312024,
+            "lon": 135.4981136
+        },
+        {
+            "type": "node",
+            "id": 3112086558,
+            "lat": 34.7295039,
+            "lon": 135.4954885
+        },
+        {
+            "type": "node",
+            "id": 3112086560,
+            "lat": 34.7295370,
+            "lon": 135.4956143
+        },
+        {
+            "type": "node",
+            "id": 3112086608,
+            "lat": 34.7298898,
+            "lon": 135.4955092
+        },
+        {
+            "type": "node",
+            "id": 3112086616,
+            "lat": 34.7299909,
+            "lon": 135.4953397
+        },
+        {
+            "type": "node",
+            "id": 3112086640,
+            "lat": 34.7301143,
+            "lon": 135.4953080
+        },
+        {
+            "type": "node",
+            "id": 3112086753,
+            "lat": 34.7304696,
+            "lon": 135.4951921
+        },
+        {
+            "type": "node",
+            "id": 3162715947,
+            "lat": 34.7415583,
+            "lon": 135.4934137
+        },
+        {
+            "type": "node",
+            "id": 3162715948,
+            "lat": 34.7415940,
+            "lon": 135.4947205
+        },
+        {
+            "type": "node",
+            "id": 3164014033,
+            "lat": 34.7414837,
+            "lon": 135.4909612
+        },
+        {
+            "type": "node",
+            "id": 3164014037,
+            "lat": 34.7415274,
+            "lon": 135.4924275
+        },
+        {
+            "type": "node",
+            "id": 3164014038,
+            "lat": 34.7415237,
+            "lon": 135.4923445
+        },
+        {
+            "type": "node",
+            "id": 3164014039,
+            "lat": 34.7415431,
+            "lon": 135.4930445
+        },
+        {
+            "type": "node",
+            "id": 3164014043,
+            "lat": 34.7415853,
+            "lon": 135.4909366
+        },
+        {
+            "type": "node",
+            "id": 3164014044,
+            "lat": 34.7416061,
+            "lon": 135.4916313
+        },
+        {
+            "type": "node",
+            "id": 3164214232,
+            "lat": 34.7333882,
+            "lon": 135.4948059
+        },
+        {
+            "type": "node",
+            "id": 3164214240,
+            "lat": 34.7334618,
+            "lon": 135.4953698
+        },
+        {
+            "type": "node",
+            "id": 3164215293,
+            "lat": 34.7357888,
+            "lon": 135.4922790
+        },
+        {
+            "type": "node",
+            "id": 3164215295,
+            "lat": 34.7358064,
+            "lon": 135.4924131
+        },
+        {
+            "type": "node",
+            "id": 3164215316,
+            "lat": 34.7360677,
+            "lon": 135.4924153
+        },
+        {
+            "type": "node",
+            "id": 3164215317,
+            "lat": 34.7360637,
+            "lon": 135.4922557
+        },
+        {
+            "type": "node",
+            "id": 3183702854,
+            "lat": 34.7379798,
+            "lon": 135.4896218
+        },
+        {
+            "type": "node",
+            "id": 3183702855,
+            "lat": 34.7380345,
+            "lon": 135.4900677
+        },
+        {
+            "type": "node",
+            "id": 3185397003,
+            "lat": 34.7327305,
+            "lon": 135.4899206
+        },
+        {
+            "type": "node",
+            "id": 3185397004,
+            "lat": 34.7327573,
+            "lon": 135.4905683
+        },
+        {
+            "type": "node",
+            "id": 3185397005,
+            "lat": 34.7327769,
+            "lon": 135.4907283
+        },
+        {
+            "type": "node",
+            "id": 3185397006,
+            "lat": 34.7327919,
+            "lon": 135.4908217
+        },
+        {
+            "type": "node",
+            "id": 3185397007,
+            "lat": 34.7328046,
+            "lon": 135.4904231
+        },
+        {
+            "type": "node",
+            "id": 3185397008,
+            "lat": 34.7328577,
+            "lon": 135.4913140
+        },
+        {
+            "type": "node",
+            "id": 3185397363,
+            "lat": 34.7369982,
+            "lon": 135.4907679
+        },
+        {
+            "type": "node",
+            "id": 3185397365,
+            "lat": 34.7369725,
+            "lon": 135.4908722
+        },
+        {
+            "type": "node",
+            "id": 3185397379,
+            "lat": 34.7372749,
+            "lon": 135.4907135
+        },
+        {
+            "type": "node",
+            "id": 3185397381,
+            "lat": 34.7372461,
+            "lon": 135.4908194
+        },
+        {
+            "type": "node",
+            "id": 3187151378,
+            "lat": 34.7338289,
+            "lon": 135.4897229
+        },
+        {
+            "type": "node",
+            "id": 3187151397,
+            "lat": 34.7340772,
+            "lon": 135.4896991
+        },
+        {
+            "type": "node",
+            "id": 3187151406,
+            "lat": 34.7342490,
+            "lon": 135.4896959
+        },
+        {
+            "type": "node",
+            "id": 3187151443,
+            "lat": 34.7345097,
+            "lon": 135.4896645
+        },
+        {
+            "type": "node",
+            "id": 3187734811,
+            "lat": 34.7332037,
+            "lon": 135.4898583
+        },
+        {
+            "type": "node",
+            "id": 3187734814,
+            "lat": 34.7333933,
+            "lon": 135.4898290
+        },
+        {
+            "type": "node",
+            "id": 3188189717,
+            "lat": 34.7369502,
+            "lon": 135.4899786
+        },
+        {
+            "type": "node",
+            "id": 3188189729,
+            "lat": 34.7371359,
+            "lon": 135.4899400
+        },
+        {
+            "type": "node",
+            "id": 3188189742,
+            "lat": 34.7374581,
+            "lon": 135.4896408
+        },
+        {
+            "type": "node",
+            "id": 3188189743,
+            "lat": 34.7374697,
+            "lon": 135.4896389
+        },
+        {
+            "type": "node",
+            "id": 3188189758,
+            "lat": 34.7375688,
+            "lon": 135.4896323
+        },
+        {
+            "type": "node",
+            "id": 3188189761,
+            "lat": 34.7376578,
+            "lon": 135.4896304
+        },
+        {
+            "type": "node",
+            "id": 3188189762,
+            "lat": 34.7377383,
+            "lon": 135.4896210
+        },
+        {
+            "type": "node",
+            "id": 3188217564,
+            "lat": 34.7324776,
+            "lon": 135.4886836
+        },
+        {
+            "type": "node",
+            "id": 3188217567,
+            "lat": 34.7325732,
+            "lon": 135.4892869
+        },
+        {
+            "type": "node",
+            "id": 3192174358,
+            "lat": 34.7331817,
+            "lon": 135.4870794
+        },
+        {
+            "type": "node",
+            "id": 3192174561,
+            "lat": 34.7332318,
+            "lon": 135.4874768
+        },
+        {
+            "type": "node",
+            "id": 3192174563,
+            "lat": 34.7332389,
+            "lon": 135.4876117
+        },
+        {
+            "type": "node",
+            "id": 3192174567,
+            "lat": 34.7332795,
+            "lon": 135.4879249
+        },
+        {
+            "type": "node",
+            "id": 3199451093,
+            "lat": 34.7362587,
+            "lon": 135.4852896
+        },
+        {
+            "type": "node",
+            "id": 3199451097,
+            "lat": 34.7362786,
+            "lon": 135.4851518
+        },
+        {
+            "type": "node",
+            "id": 3199451099,
+            "lat": 34.7362844,
+            "lon": 135.4852320
+        },
+        {
+            "type": "node",
+            "id": 3199451109,
+            "lat": 34.7363223,
+            "lon": 135.4852821
+        },
+        {
+            "type": "node",
+            "id": 3199451110,
+            "lat": 34.7363250,
+            "lon": 135.4853159
+        },
+        {
+            "type": "node",
+            "id": 3199451129,
+            "lat": 34.7363539,
+            "lon": 135.4851438
+        },
+        {
+            "type": "node",
+            "id": 3199451145,
+            "lat": 34.7363847,
+            "lon": 135.4853089
+        },
+        {
+            "type": "node",
+            "id": 3202437599,
+            "lat": 34.7286230,
+            "lon": 135.4839984
+        },
+        {
+            "type": "node",
+            "id": 3202437601,
+            "lat": 34.7286489,
+            "lon": 135.4842098
+        },
+        {
+            "type": "node",
+            "id": 3202437604,
+            "lat": 34.7288134,
+            "lon": 135.4840602
+        },
+        {
+            "type": "node",
+            "id": 3202437608,
+            "lat": 34.7288929,
+            "lon": 135.4842604
+        },
+        {
+            "type": "node",
+            "id": 3202437639,
+            "lat": 34.7291341,
+            "lon": 135.4843200
+        },
+        {
+            "type": "node",
+            "id": 3202437649,
+            "lat": 34.7291803,
+            "lon": 135.4841547
+        },
+        {
+            "type": "node",
+            "id": 3202442669,
+            "lat": 34.7294484,
+            "lon": 135.4842199
+        },
+        {
+            "type": "node",
+            "id": 3202442688,
+            "lat": 34.7295325,
+            "lon": 135.4844089
+        },
+        {
+            "type": "node",
+            "id": 3202442738,
+            "lat": 34.7297598,
+            "lon": 135.4844494
+        },
+        {
+            "type": "node",
+            "id": 3202442746,
+            "lat": 34.7298070,
+            "lon": 135.4843144
+        },
+        {
+            "type": "node",
+            "id": 3202442749,
+            "lat": 34.7298371,
+            "lon": 135.4844667
+        },
+        {
+            "type": "node",
+            "id": 3202442950,
+            "lat": 34.7307129,
+            "lon": 135.4845621
+        },
+        {
+            "type": "node",
+            "id": 3202442986,
+            "lat": 34.7308811,
+            "lon": 135.4845598
+        },
+        {
+            "type": "node",
+            "id": 3202443248,
+            "lat": 34.7320128,
+            "lon": 135.4847269
+        },
+        {
+            "type": "node",
+            "id": 3202443266,
+            "lat": 34.7321006,
+            "lon": 135.4853601
+        },
+        {
+            "type": "node",
+            "id": 3202443359,
+            "lat": 34.7328059,
+            "lon": 135.4834160
+        },
+        {
+            "type": "node",
+            "id": 3202443371,
+            "lat": 34.7330619,
+            "lon": 135.4833474
+        },
+        {
+            "type": "node",
+            "id": 3202553683,
+            "lat": 34.7282897,
+            "lon": 135.4893594
+        },
+        {
+            "type": "node",
+            "id": 3202553692,
+            "lat": 34.7284740,
+            "lon": 135.4899272
+        },
+        {
+            "type": "node",
+            "id": 3206138889,
+            "lat": 34.7258497,
+            "lon": 135.4903990
+        },
+        {
+            "type": "node",
+            "id": 3206138890,
+            "lat": 34.7258533,
+            "lon": 135.4898768
+        },
+        {
+            "type": "node",
+            "id": 3211907575,
+            "lat": 34.7253583,
+            "lon": 135.4862735
+        },
+        {
+            "type": "node",
+            "id": 3211907602,
+            "lat": 34.7254143,
+            "lon": 135.4865226
+        },
+        {
+            "type": "node",
+            "id": 3211907667,
+            "lat": 34.7255217,
+            "lon": 135.4870514
+        },
+        {
+            "type": "node",
+            "id": 3211907676,
+            "lat": 34.7255357,
+            "lon": 135.4873946
+        },
+        {
+            "type": "node",
+            "id": 3211907703,
+            "lat": 34.7255893,
+            "lon": 135.4873782
+        },
+        {
+            "type": "node",
+            "id": 3228889233,
+            "lat": 34.7254010,
+            "lon": 135.4837325
+        },
+        {
+            "type": "node",
+            "id": 3228889234,
+            "lat": 34.7254668,
+            "lon": 135.4842120
+        },
+        {
+            "type": "node",
+            "id": 3257603653,
+            "lat": 34.7256704,
+            "lon": 135.5040724
+        },
+        {
+            "type": "node",
+            "id": 3257603655,
+            "lat": 34.7256680,
+            "lon": 135.5041202
+        },
+        {
+            "type": "node",
+            "id": 3257603662,
+            "lat": 34.7256706,
+            "lon": 135.5041625
+        },
+        {
+            "type": "node",
+            "id": 3257603671,
+            "lat": 34.7256997,
+            "lon": 135.5039754
+        },
+        {
+            "type": "node",
+            "id": 3257603672,
+            "lat": 34.7256835,
+            "lon": 135.5042134
+        },
+        {
+            "type": "node",
+            "id": 3257603681,
+            "lat": 34.7257109,
+            "lon": 135.5042618
+        },
+        {
+            "type": "node",
+            "id": 3257603703,
+            "lat": 34.7257306,
+            "lon": 135.5040839
+        },
+        {
+            "type": "node",
+            "id": 3257603714,
+            "lat": 34.7257310,
+            "lon": 135.5041579
+        },
+        {
+            "type": "node",
+            "id": 3257603727,
+            "lat": 34.7257549,
+            "lon": 135.5039978
+        },
+        {
+            "type": "node",
+            "id": 3257603731,
+            "lat": 34.7257551,
+            "lon": 135.5042082
+        },
+        {
+            "type": "node",
+            "id": 3257603811,
+            "lat": 34.7259089,
+            "lon": 135.5043394
+        },
+        {
+            "type": "node",
+            "id": 3257603876,
+            "lat": 34.7261097,
+            "lon": 135.5045987
+        },
+        {
+            "type": "node",
+            "id": 3257603884,
+            "lat": 34.7261162,
+            "lon": 135.5045154
+        },
+        {
+            "type": "node",
+            "id": 3257603990,
+            "lat": 34.7266084,
+            "lon": 135.5053405
+        },
+        {
+            "type": "node",
+            "id": 3257604009,
+            "lat": 34.7267691,
+            "lon": 135.5054832
+        },
+        {
+            "type": "node",
+            "id": 3264991739,
+            "lat": 34.7304413,
+            "lon": 135.5018018
+        },
+        {
+            "type": "node",
+            "id": 3264991792,
+            "lat": 34.7306432,
+            "lon": 135.5017972
+        },
+        {
+            "type": "node",
+            "id": 3264991911,
+            "lat": 34.7310404,
+            "lon": 135.5017882
+        },
+        {
+            "type": "node",
+            "id": 3264991912,
+            "lat": 34.7310718,
+            "lon": 135.5017806
+        },
+        {
+            "type": "node",
+            "id": 3264992005,
+            "lat": 34.7314885,
+            "lon": 135.5017860
+        },
+        {
+            "type": "node",
+            "id": 3264992022,
+            "lat": 34.7317986,
+            "lon": 135.5018180
+        },
+        {
+            "type": "node",
+            "id": 3264992039,
+            "lat": 34.7321079,
+            "lon": 135.5018683
+        },
+        {
+            "type": "node",
+            "id": 3264992051,
+            "lat": 34.7322468,
+            "lon": 135.5018980
+        },
+        {
+            "type": "node",
+            "id": 3264992055,
+            "lat": 34.7323008,
+            "lon": 135.5019043
+        },
+        {
+            "type": "node",
+            "id": 3264992090,
+            "lat": 34.7327433,
+            "lon": 135.5020658
+        },
+        {
+            "type": "node",
+            "id": 3264992094,
+            "lat": 34.7328169,
+            "lon": 135.5020749
+        },
+        {
+            "type": "node",
+            "id": 3264992147,
+            "lat": 34.7332404,
+            "lon": 135.5021718
+        },
+        {
+            "type": "node",
+            "id": 3264992158,
+            "lat": 34.7333508,
+            "lon": 135.5021955
+        },
+        {
+            "type": "node",
+            "id": 3264992177,
+            "lat": 34.7336414,
+            "lon": 135.5022613
+        },
+        {
+            "type": "node",
+            "id": 3283428527,
+            "lat": 34.7357770,
+            "lon": 135.5031725
+        },
+        {
+            "type": "node",
+            "id": 3283428541,
+            "lat": 34.7359233,
+            "lon": 135.5039782
+        },
+        {
+            "type": "node",
+            "id": 3283428545,
+            "lat": 34.7360140,
+            "lon": 135.5044475
+        },
+        {
+            "type": "node",
+            "id": 3283428554,
+            "lat": 34.7360646,
+            "lon": 135.5047167
+        },
+        {
+            "type": "node",
+            "id": 5526594987,
+            "lat": 34.7309995,
+            "lon": 135.4978185
+        },
+        {
+            "type": "node",
+            "id": 5526594988,
+            "lat": 34.7309965,
+            "lon": 135.4977838
+        },
+        {
+            "type": "node",
+            "id": 6853121808,
+            "lat": 34.7258427,
+            "lon": 135.4925213
+        },
+        {
+            "type": "node",
+            "id": 6853121809,
+            "lat": 34.7258399,
+            "lon": 135.4918917
+        },
+        {
+            "type": "node",
+            "id": 7454128591,
+            "lat": 34.7410593,
+            "lon": 135.5044565
+        },
+        {
+            "type": "node",
+            "id": 9566395865,
+            "lat": 34.7325190,
+            "lon": 135.5019844
+        },
+        {
+            "type": "node",
+            "id": 11727071837,
+            "lat": 34.7242537,
+            "lon": 135.4860149
+        },
+        {
+            "type": "node",
+            "id": 11727071838,
+            "lat": 34.7240020,
+            "lon": 135.4860548
+        },
+        {
+            "type": "node",
+            "id": 12000717579,
+            "lat": 34.7346099,
+            "lon": 135.5049969
+        },
+        {
+            "type": "node",
+            "id": 12000717580,
+            "lat": 34.7351158,
+            "lon": 135.5051679
+        },
+        {
+            "type": "node",
+            "id": 12000717581,
+            "lat": 34.7357568,
+            "lon": 135.5053850
+        },
+        {
+            "type": "node",
+            "id": 12000717582,
+            "lat": 34.7352439,
+            "lon": 135.5052135
+        },
+        {
+            "type": "node",
+            "id": 12012642457,
+            "lat": 34.7373690,
+            "lon": 135.5015403
+        },
+        {
+            "type": "node",
+            "id": 12279129071,
+            "lat": 34.7334755,
+            "lon": 135.4875502
+        },
+        {
+            "type": "node",
+            "id": 12279129072,
+            "lat": 34.7334723,
+            "lon": 135.4875218
+        },
+        {
+            "type": "node",
+            "id": 12279129073,
+            "lat": 34.7334640,
+            "lon": 135.4874489
+        },
+        {
+            "type": "node",
+            "id": 12279129074,
+            "lat": 34.7334569,
+            "lon": 135.4873856
+        },
+        {
+            "type": "node",
+            "id": 12279129075,
+            "lat": 34.7334483,
+            "lon": 135.4873101
+        },
+        {
+            "type": "node",
+            "id": 12279129076,
+            "lat": 34.7334452,
+            "lon": 135.4872829
+        },
+        {
+            "type": "node",
+            "id": 12279129077,
+            "lat": 34.7334422,
+            "lon": 135.4872560
+        },
+        {
+            "type": "node",
+            "id": 12279129078,
+            "lat": 34.7334375,
+            "lon": 135.4872152
+        },
+        {
+            "type": "node",
+            "id": 12367649289,
+            "lat": 34.7241059,
+            "lon": 135.4835421
+        },
+        {
+            "type": "node",
+            "id": 12367649290,
+            "lat": 34.7241163,
+            "lon": 135.4832209
+        },
+        {
+            "type": "node",
+            "id": 12495610050,
+            "lat": 34.7379421,
+            "lon": 135.4857239
+        },
+        {
+            "type": "node",
+            "id": 12495610051,
+            "lat": 34.7379548,
+            "lon": 135.4855536
+        },
+        {
+            "type": "node",
+            "id": 12495610052,
+            "lat": 34.7379372,
+            "lon": 135.4855533
+        },
+        {
+            "type": "node",
+            "id": 12495610218,
+            "lat": 34.7387152,
+            "lon": 135.4896393
+        },
+        {
+            "type": "node",
+            "id": 12495610219,
+            "lat": 34.7389456,
+            "lon": 135.4896031
+        },
+        {
+            "type": "node",
+            "id": 12495610220,
+            "lat": 34.7389533,
+            "lon": 135.4901807
+        },
+        {
+            "type": "node",
+            "id": 12495610221,
+            "lat": 34.7389899,
+            "lon": 135.4901750
+        },
+        {
+            "type": "node",
+            "id": 12496095471,
+            "lat": 34.7374456,
+            "lon": 135.4959190
+        },
+        {
+            "type": "node",
+            "id": 12496095472,
+            "lat": 34.7373765,
+            "lon": 135.4958588
+        },
+        {
+            "type": "node",
+            "id": 12496095473,
+            "lat": 34.7386502,
+            "lon": 135.4956048
+        },
+        {
+            "type": "node",
+            "id": 12496095474,
+            "lat": 34.7386965,
+            "lon": 135.4955975
+        },
+        {
+            "type": "node",
+            "id": 12496095475,
+            "lat": 34.7387869,
+            "lon": 135.4955820
+        },
+        {
+            "type": "node",
+            "id": 12496095476,
+            "lat": 34.7388885,
+            "lon": 135.4955683
+        },
+        {
+            "type": "node",
+            "id": 12496095477,
+            "lat": 34.7389932,
+            "lon": 135.4955505
+        },
+        {
+            "type": "node",
+            "id": 12496095478,
+            "lat": 34.7393335,
+            "lon": 135.4954965
+        },
+        {
+            "type": "node",
+            "id": 12496172852,
+            "lat": 34.7413858,
+            "lon": 135.4911611
+        },
+        {
+            "type": "node",
+            "id": 12496172853,
+            "lat": 34.7413830,
+            "lon": 135.4910538
+        },
+        {
+            "type": "node",
+            "id": 12496172867,
+            "lat": 34.7414870,
+            "lon": 135.4946647
+        },
+        {
+            "type": "node",
+            "id": 12496172868,
+            "lat": 34.7414855,
+            "lon": 135.4945650
+        },
+        {
+            "type": "node",
+            "id": 12496172955,
+            "lat": 34.7397136,
+            "lon": 135.4922858
+        },
+        {
+            "type": "node",
+            "id": 12496172956,
+            "lat": 34.7396876,
+            "lon": 135.4922896
+        },
+        {
+            "type": "node",
+            "id": 12496172957,
+            "lat": 34.7396808,
+            "lon": 135.4922202
+        },
+        {
+            "type": "node",
+            "id": 12496172958,
+            "lat": 34.7396693,
+            "lon": 135.4921332
+        },
+        {
+            "type": "node",
+            "id": 12496172959,
+            "lat": 34.7396608,
+            "lon": 135.4920476
+        },
+        {
+            "type": "node",
+            "id": 12496173520,
+            "lat": 34.7387055,
+            "lon": 135.4895474
+        },
+        {
+            "type": "node",
+            "id": 12496173803,
+            "lat": 34.7367207,
+            "lon": 135.4902491
+        },
+        {
+            "type": "node",
+            "id": 12496173804,
+            "lat": 34.7366637,
+            "lon": 135.4898679
+        },
+        {
+            "type": "node",
+            "id": 12496173856,
+            "lat": 34.7364117,
+            "lon": 135.4892185
+        },
+        {
+            "type": "node",
+            "id": 12496173857,
+            "lat": 34.7364313,
+            "lon": 135.4892156
+        },
+        {
+            "type": "node",
+            "id": 12496173858,
+            "lat": 34.7361576,
+            "lon": 135.4892566
+        },
+        {
+            "type": "node",
+            "id": 12496173859,
+            "lat": 34.7363504,
+            "lon": 135.4892280
+        },
+        {
+            "type": "node",
+            "id": 12496173879,
+            "lat": 34.7363323,
+            "lon": 135.4894243
+        },
+        {
+            "type": "node",
+            "id": 12496173880,
+            "lat": 34.7364529,
+            "lon": 135.4894065
+        },
+        {
+            "type": "node",
+            "id": 12496173881,
+            "lat": 34.7360575,
+            "lon": 135.4894654
+        },
+        {
+            "type": "node",
+            "id": 12496173882,
+            "lat": 34.7362634,
+            "lon": 135.4894349
+        },
+        {
+            "type": "node",
+            "id": 12496174032,
+            "lat": 34.7410650,
+            "lon": 135.4918872
+        },
+        {
+            "type": "node",
+            "id": 12496174033,
+            "lat": 34.7410571,
+            "lon": 135.4916422
+        },
+        {
+            "type": "node",
+            "id": 12496174040,
+            "lat": 34.7408680,
+            "lon": 135.4921466
+        },
+        {
+            "type": "node",
+            "id": 12496174041,
+            "lat": 34.7408976,
+            "lon": 135.4921463
+        },
+        {
+            "type": "node",
+            "id": 12496174043,
+            "lat": 34.7408989,
+            "lon": 135.4921778
+        },
+        {
+            "type": "node",
+            "id": 12496174055,
+            "lat": 34.7413102,
+            "lon": 135.4919094
+        },
+        {
+            "type": "node",
+            "id": 12496174056,
+            "lat": 34.7413096,
+            "lon": 135.4918819
+        },
+        {
+            "type": "node",
+            "id": 12496174058,
+            "lat": 34.7413583,
+            "lon": 135.4918803
+        },
+        {
+            "type": "node",
+            "id": 12496174080,
+            "lat": 34.7414601,
+            "lon": 135.4936974
+        },
+        {
+            "type": "node",
+            "id": 12496174081,
+            "lat": 34.7414571,
+            "lon": 135.4936076
+        },
+        {
+            "type": "node",
+            "id": 12496174082,
+            "lat": 34.7414546,
+            "lon": 135.4935633
+        },
+        {
+            "type": "node",
+            "id": 12496174083,
+            "lat": 34.7414519,
+            "lon": 135.4934366
+        },
+        {
+            "type": "node",
+            "id": 12855493714,
+            "lat": 34.7282248,
+            "lon": 135.5006648
+        },
+        {
+            "type": "node",
+            "id": 12855493715,
+            "lat": 34.7282185,
+            "lon": 135.5004050
+        },
+        {
+            "type": "node",
+            "id": 12855493716,
+            "lat": 34.7282179,
+            "lon": 135.5003807
+        },
+        {
+            "type": "node",
+            "id": 12855493717,
+            "lat": 34.7282174,
+            "lon": 135.5003570
+        },
+        {
+            "type": "node",
+            "id": 12855493718,
+            "lat": 34.7282166,
+            "lon": 135.5003249
+        },
+        {
+            "type": "node",
+            "id": 12855493719,
+            "lat": 34.7282101,
+            "lon": 135.5000576
+        },
+        {
+            "type": "node",
+            "id": 12855493720,
+            "lat": 34.7282251,
+            "lon": 135.5006779
+        },
+        {
+            "type": "node",
+            "id": 12855493721,
+            "lat": 34.7282094,
+            "lon": 135.5000270
+        }
+    ]
+}

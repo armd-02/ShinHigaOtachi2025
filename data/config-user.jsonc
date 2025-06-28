@@ -1,138 +1,200 @@
 // Community Mapmaker User Config
 {
-	"map": {
-		"tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
-		"viewCenter": [135.49237, 34.73928],
-		"viewPitch": 30,
-		"maxPitch": 60,
-		"maxBounds": [
-			[135.4, 34.71],
-			[135.6, 34.77]
-		],
-		"initZoom": 15,
-		"maxZoom": 23,
-		"modalZoom": 19 // モーダルダイアログ表示時のズームサイズ
-	},
-	"view": {
-		"poiZoom": {
-			// アイコンの前後位置は後ろの方が手前になる
-			"activity": 8,
-			"Green": 15.5
-		},
-		"poiFilter": "filter", // listTable更新時 all:全て / filter:絞り込み / "":非連動
-		"editZoom": {
-			// 編集時に追加するpoiZoom
-			"ShinHigaOtachi2024": 14
-		}
-	},
-	"etc": {
-		"editMode": false, // 編集メニューの表示/非表示
-		"thumbnailWidth": "240",
-		"splashUrl": "./image/higashi_mikuni.jpg"
-	},
-	"selectItem": {
-		// 選択リストの内容を手動記載 / 空の時は "" とする
-		"menu": "",
-		/*{
-        "2010年時点の地図(日本)": "Japan2010",
-        "2012年時点の地図(日本)": "Japan2012",
-        "2014年時点の地図(日本)": "Japan2014",
-        "2016年時点の地図(日本)": "Japan2016",
-        "2018年時点の地図(日本)": "Japan2018",
-        "2020年時点の地図(日本)": "Japan2020",
-        "2022年時点の地図(日本)": "Japan2022",
-        "最新地図(全世界)": "OSMFJ"
-    },*/
-		"action": "" // ChangeMap:背景地図切り替え
-	},
-	"listTable": {
-		"category": "activity", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ
-		"target": "activity", // target名:overpass名を表示 / activity:google sheetsを表示 / tags:osm poi種別名を表示
-		"allActs": true, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
-		"playback": {
-			"view": false,
-			"zoomLevel": 15,
-			"timer": 4000
-		},
-		"download": false
-	},
-	"google": {
-		"appScript": "https://script.google.com/macros/s/AKfycbxNPBAaQ9ADErqlJgq76AsR2oveJptezcyt-SJf5yLbdbyR_ZgEwld6iyG_D5a6Y93Q/exec",
-		"targetName": "activity"
-	},
-	"static": {
-		"mode": true,
-		"osmjson": "./data/ShinHigaAll2024.json"
-	},
-	"wikipedia": {
-		"marker": "wikipedia.svg",
-		"api_": "wikipedia.org/w/api.php?format=json&action=query&prop=extracts%7Cimages&exintro=&explaintext=&titles=",
-		"api": "wikipedia.org/api/rest_v1/page/summary/",
-		"domain": "wikipedia.org",
-		"tag": "wikipedia",
-		"image": true
-	},
-	"menu": {
-		"main": [
-			// トップメニュー一覧
-			{
-				"glot-model": "about",
-				"linkto": "javascript:cMapMaker.about()",
-				"divider": false
-			},
-			/*
+    "map": {
+        "miniMap": true, // miniMap表示時はtrue
+        "changeMap": false, // 地図切り替え時はtrue
+        "tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
+        "viewCenter": [
+            135.49237,
+            34.73928
+        ],
+        "viewPitch": 30,
+        "maxPitch": 75,
+        "maxBounds": [ // 地図の表示範囲(左下、右上)
+            [
+                135.4,
+                34.71
+            ],
+            [
+                135.6,
+                34.77
+            ]
+        ],
+        "initZoom": 15,
+        "maxZoom": 23,
+        "detailZoom": 19, // モーダルダイアログ表示時のズームサイズ
+        "openNow": false,
+        "textFont": [
+            "NNoto Sans Bold"
+        ], // 使用可能なフォント（spriteに依存）
+        "textSize": 12
+    },
+    "minimap": { // 地球儀表示時の初期設定
+        "initZoom": 2,
+        "viewCenter": [
+            135,
+            34
+        ]
+    },
+    "icon": {
+        "fgPath": "icon",
+        "bgPath": "image",
+        "shadow": 0.6,
+        "attention": 0.6,
+        "green": 0.6,
+        "middle": 0.6,
+        "visited": 0.4,
+        "normal": 0.6,
+        "flag": 0.5,
+        "textFont": [
+            "Noto Sans Regular"
+        ], // 使用可能なフォント（spriteに依存）
+        "textSize": 10.5,
+        "textViewZoom": 15.5 // アイコンに文字を表示するズームレベル
+    },
+    "view": {
+        "poiActLoad": true, // 起動時にActivityを読み込むか
+        "poiFilter": "", // listTable更新時 all:全て / filter:絞り込み / "":非連動
+        "poiZoom": {
+            // アイコンの前後位置は後ろの方が手前になる
+            "Green": 13,
+            "activity": 12
+        },
+        "editZoom": {
+            // 編集時に追加するpoiZoom
+            "ShinMikuOtachi2025": 15
+        }
+    },
+    "etc": {
+        "localSave": "", // 訪問済み機能フラグ(有効時はアプリ名、無効時は"")
+        "editMode": false, // 編集メニューの表示/非表示
+        "slideThumbWidth": "240",
+        "modalThumbWidth": "800",
+        "splashUrl": "./image/shin_miku.jpg",
+        "loadingUrl": "./image/loading.gif"
+    },
+    "selectItem": { // 選択リストの内容を手動記載 / 空の時は "" とする
+        "default": "",
+        "menu": "",
+        "action": "" // ChangeMap:背景地図切り替え / ChangePOI:メニューに会ったOverpass名のPOIを表示
+    },
+    "listTable": {
+        "height": 0.6, // リスト時の高さ(1を最大とした割合)
+        "category": "activity", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
+        "target": "activity", // targets: / activity:google sheetsを表示 
+        "allActs": true, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
+        "playback": {
+            "view": false,
+            "zoomLevel": 15,
+            "timer": 4000
+        },
+        "download": false
+    },
+    "google": {
+        "Analytics": "",
+        "AppScript": "https://script.google.com/macros/s/AKfycbw5NyFoJmI8ZRM1c22BIEK3R6nyZvuwpHCTsxuNUdILp7w02N78LUtTm8jb0HQBYm4Riw/exec",
+        "targetName": "activity"
+    },
+    "static": {
+        "mode": true,
+        "osmjson": "./data/shinmikuAll.json"
+    },
+    "wikipedia": {
+        "marker": "wikipedia.svg",
+        "api_": "wikipedia.org/w/api.php?format=json&action=query&prop=extracts%7Cimages&exintro=&explaintext=&titles=",
+        "api": "wikipedia.org/api/rest_v1/page/summary/",
+        "domain": "wikipedia.org",
+        "tag": "wikipedia",
+        "image": true
+    },
+    "menu": {
+        "main": [
+            // トップメニュー一覧
             {
-                "glot-model": "owner",
-                "linkto": "https://k-sakanoshita.medium.com/1173cab3fd72",
+                "glot-model": "about",
+                "linkto": "javascript:cMapMaker.about()",
+                "divider": false
+            },
+            {
+                "glot-model": "licence_title",
+                "linkto": "javascript:cMapMaker.licence()",
+                "divider": false
+            },
+            {
+                "glot-model": "develop_site",
+                "linkto": "https://github.com/K-Sakanoshita/expo2025-maniacs",
+                "divider": false
+            }
+        ],
+        "mainSystem": [
+            {
+                "glot-model": "openstreetmap",
+                "linkto": "https://www.openstreetmap.org/about",
                 "divider": true
             },
-            */
-			{
-				"glot-model": "licence_title",
-				"linkto": "javascript:cMapMaker.licence()",
-				"divider": false
-			},
-			{
-				"glot-model": "openstreetmap",
-				"linkto": "https://www.openstreetmap.org/about",
-				"divider": false
-			}
-		],
-		// 詳細表示のハンバーガーメニュー
-		"modal": [
-			/*
+            {
+                "glot-model": "export_visited",
+                "linkto": "javascript:visitedCont.export()",
+                "divider": false
+            },
+            {
+                "glot-model": "import_visited",
+                "linkto": "javascript:visitedCont.import()",
+                "divider": false
+            }
+        ],
+        // 詳細表示のハンバーガーメニュー
+        "modal": [
+            /*
             {
                 "glot-model": "act_add",
-                "linkto": "javascript:modalActs.edit()",
+                "linkto": "javascript:modalActs.edit({form:'expo2025'})",
                 "divider": false
             },
             */
-			{
-				"glot-model": "osm_open",
-				"linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
-				"divider": false
-			},
-			{
-				"glot-model": "button_close",
-				"linkto": "javascript:winCont.closeModal()",
-				"divider": false
-			}
-		],
-		// 詳細モーダルの追加ボタン
-		"buttons": [
-			{
-				"btn_class": "btn btn-light border-secondary me-2",
-				"code": "javascript:modalActs.edit()",
-				"icon_class": "fas fa-plus",
-				"btn_glot_name": "add_activity",
-				"editMode": true
-			},
-			{
-				"btn_class": "btn btn-light border-secondary",
-				"code": "javascript:cMapMaker.shareURL()",
-				"icon_class": "fas fa-clone",
-				"btn_glot_name": "share_link"
-			}
-		]
-	}
+            {
+                "glot-model": "copyShareLink",
+                "linkto": "javascript:cMapMaker.shareURL()",
+                "divider": false
+            },
+            {
+                "glot-model": "osm_open",
+                "linkto": "javascript:winCont.osm_open(cMapMaker.open_osmid)",
+                "divider": false
+            }
+        ],
+        // 詳細モーダルの追加ボタン 
+        "activities": [
+            /*
+            {
+                "btn_class": "btn btn-light border-secondary",
+                "code": "javascript:modalActs.edit({form:'expo2025'})",
+                "icon_class": "fas fa-clone",
+                "btn_glot_name": "act_add"
+            }
+            {
+                "btn_class": "btn btn-light border-secondary",
+                "code": "javascript:cMapMaker.shareURL()",
+                "icon_class": "fas fa-clone",
+                "btn_glot_name": "share_link"
+            }
+            */
+        ],
+        "editActivity": [
+            {
+                "btn_class": "btn btn-light border-secondary p-1 btn-max pe-auto",
+                "code": "javascript:modalActs.save()",
+                "icon_class": "fa-solid fa-cloud-arrow-up",
+                "btn_glot_name": "act_save"
+            }
+        ],
+        "visited": [
+            {
+                "btn_class": "btn btn-light border-secondary pe-auto",
+                "code": "javascript:visitedCont.import_load()",
+                "icon_class": "fa-solid fa-cloud-arrow-up",
+                "btn_glot_name": "act_upload"
+            }
+        ]
+    }
 }
