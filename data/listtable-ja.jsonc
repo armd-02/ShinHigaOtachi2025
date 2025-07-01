@@ -7,14 +7,14 @@
                     "hidden": true
                 },
                 {
-                    "id": "keyword",
-                    "name": "業種・特徴",
-                    "width": "40%"
-                },
-                {
                     "id": "category",
                     "name": "カテゴリ",
                     "hidden": true
+                },
+                {
+                    "id": "keyword",
+                    "name": "業種・特徴",
+                    "width": "40%"
                 },
                 {
                     "id": "title",
@@ -29,15 +29,15 @@
             ],
             "poiFields": [
                 "id",
-                "keyword",
                 "category",
+                "keyword",
                 "name",
                 "memo"
             ],
             "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
                 "#id", // 最初の列は#id固定
+                "category", // listTableのフィルタ都合上。この位置にcategoryが必要
                 "keyword",
-                "#category",
                 "title",
                 "memo"
             ]

@@ -7,14 +7,14 @@
                     "hidden": true
                 },
                 {
-                    "id": "keyword",
-                    "name": "keyword",
-                    "width": "40%"
-                },
-                {
                     "id": "category",
                     "name": "category",
                     "hidden": true
+                },
+                {
+                    "id": "keyword",
+                    "name": "keyword",
+                    "width": "40%"
                 },
                 {
                     "id": "name",
@@ -29,15 +29,15 @@
             ],
             "poiFields": [
                 "id",
-                "keyword",
                 "category",
+                "keyword",
                 "name",
                 "memo"
             ],
             "actFields": [
                 "#id",
+                "category",
                 "keyword",
-                "#category",
                 "title",
                 "memo"
             ]
