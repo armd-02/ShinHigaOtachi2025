@@ -66,7 +66,7 @@ a {
 
     .two-pane aside {
         width: 400px;
-        flex: 0 0 400px;
+        flex: 0 0 0px;
         height: 100vh;
     }
 
@@ -80,13 +80,12 @@ a {
     background: #f0f0f0;
 }
 
-/*
 #bottom-pane {
-    flex-grow: 1;
     background: #f0f0f0;
     overflow: auto;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
 }
-*/
 
 .footerSpace {
     height: 100px !important;

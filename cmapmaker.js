@@ -8,7 +8,6 @@ class CMapMaker {
         this.id = 0;
         this.moveMapBusy = 0;
         this.changeKeywordWaitTime;
-        this.sidebarSize = 1;
         this.scrollHints = 0;
     }
 
@@ -21,14 +20,14 @@ class CMapMaker {
 
     about() {
         let msg = { msg: glot.get("about_message"), ttl: glot.get("about") }
-        cMapMaker.setSidebar("view")
+        winCont.setSidebar("view")
         mapLibre.viewMiniMap(false)
         winCont.makeDetail({ "title": msg.ttl, "message": msg.msg, "mode": "close", "menu": false })
     }
 
     licence() {			// About license
         let msg = { msg: glot.get("licence_message") + glot.get("more_message"), ttl: glot.get("licence_title") };
-        cMapMaker.setSidebar("view")
+        winCont.setSidebar("view")
         mapLibre.viewMiniMap(false)
         winCont.makeDetail({ "title": msg.ttl, "message": msg.msg, "mode": "close", "menu": false });
     }
@@ -308,7 +307,7 @@ class CMapMaker {
                 winCont.makeDetail({ "title": title, "message": message, "append": Conf.menu.activities, "menu": true, "openid": openid });
             }
 
-            cMapMaker.setSidebar("view").then(() => {
+            winCont.setSidebar("view").then(() => {
                 if (tags.country) {     // Detail内にminiMapを表示
                     mapLibre.viewMiniMap(true)
                     mapLibre.showCountryByCode(tags.country)
@@ -375,67 +374,6 @@ class CMapMaker {
         link.click()
     }
 
-    // サイドバーのサイズ設定(mode:空は非表示(0) / view:初期値1 / change:1<->3 )
-    setSidebar(mode) {
-        return new Promise((resolve, reject) => {
-            const topPane = document.getElementById("top-pane");
-            const btmPane = document.getElementById("bottom-pane");
-            const sideCnt = document.getElementById("sidebarCont");
-            const sideChg = document.getElementById("sidebarChange");
-            const minimap = document.getElementById("mini-map");
-
-            this.sidebarSize =
-                mode === "view" ? 1 :
-                    mode === "change" && this.sidebarSize == 1 ? 2 :
-                        mode === "change" && this.sidebarSize == 2 ? 1 :
-                            mode === "" || mode == undefined ? 0 : this.sidebarSize;
-            sideCnt.classList.toggle("d-none", this.sidebarSize == 0);  // サイドバー操作表示/非表示
-
-            const isWide = window.matchMedia('(min-width: 1024px)').matches;
-            if (!isWide) {
-                const maxHeight = window.innerHeight;
-                let btmHeight, topHeight
-                const icon = this.sidebarSize == 1 ? "up" : "down"
-                sideChg.innerHTML = `<i class='fa-solid fa-chevron-${icon}'></i>`
-
-                switch (this.sidebarSize) {
-                    case 0: btmHeight = 0; break;
-                    case 1: btmHeight = maxHeight * 0.4; break;
-                    case 2: btmHeight = maxHeight; break;
-                }
-                topHeight = maxHeight - btmHeight;
-                let size = ((maxHeight / 6) * this.sidebarSize)
-                minimap.style.height = `${size}px`
-                geoCont.clearPolygon()
-
-                cMapMaker.status = "moveing"
-                mapLibre.stop()
-                console.log("top: " + topPane.offsetHeight + "px -> " + topHeight + "px")
-                console.log("btm: " + (maxHeight - topPane.offsetHeight) + "px -> " + btmHeight + "px")
-                btmPane.animate([
-                    { height: maxHeight - topPane.offsetHeight + "px" }, { height: btmHeight + "px" }
-                ], {
-                    duration: 200, easing: 'ease-out', fill: 'forwards'
-                });
-                topPane.animate([
-                    { height: topPane.offsetHeight + "px" }, { height: topHeight + "px" }
-                ], {
-                    duration: 200, easing: 'ease-out', fill: 'forwards'
-                }).finished.then(() => {
-                    btmPane.style.height = `${btmHeight}px`;  // 念のため明示
-                    mapLibre.start()
-                    cMapMaker.status = "normal"
-                    resolve()
-                });
-            } else {
-                topPane.style.height = "100vh"
-                btmPane.style.height = "100vh"
-                cMapMaker.status = "normal"
-                resolve()
-            }
-        })
-    }
-
     // EVENT: イメージを選択した時のイベント処理
     eventViewThumb(imgdom) {
         console.log("eventViewThumb: Start.");
@@ -443,7 +381,7 @@ class CMapMaker {
         let poi = poiCont.get_osmid(osmid);
         let zoomlv = Math.max(mapLibre.getZoom(true), Conf.map.detailZoom);
         if (poi !== undefined) {
-            cMapMaker.setSidebar()
+            winCont.setSidebar()
             cMapMaker.viewDetail(osmid).then(() => {
                 if (poi.geojson !== undefined) geoCont.writePolygon(poi.geojson)
                 mapLibre.flyTo(poi.lnglat, zoomlv);

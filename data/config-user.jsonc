@@ -1,8 +1,8 @@
 // Community Mapmaker User Config
 {
     "map": {
-        "miniMap": true, // miniMap表示時はtrue
-        "changeMap": false, // 地図切り替え時はtrue
+        "miniMap": false, // miniMap表示時はtrue
+        "changeMap": true, // 地図切り替え時はtrue
         "tileName": "OSMFJ", // タイル一覧は config-system.jsonc へ
         "viewCenter": [
             135.49237,
@@ -22,12 +22,8 @@
         ],
         "initZoom": 15,
         "maxZoom": 23,
-        "detailZoom": 19, // モーダルダイアログ表示時のズームサイズ
-        "openNow": false,
-        "textFont": [
-            "NNoto Sans Bold"
-        ], // 使用可能なフォント（spriteに依存）
-        "textSize": 12
+        "detailZoom": 18, // モーダルダイアログ表示時のズームサイズ
+        "openNow": false
     },
     "minimap": { // 地球儀表示時の初期設定
         "initZoom": 2,
@@ -39,18 +35,18 @@
     "icon": {
         "fgPath": "icon",
         "bgPath": "image",
-        "shadow": 0.6,
-        "attention": 0.6,
-        "green": 0.6,
-        "middle": 0.6,
-        "visited": 0.4,
-        "normal": 0.6,
-        "flag": 0.5,
+        "shadow": 0.8,
+        "attention": 0.8,
+        "green": 0.8,
+        "middle": 0.8,
+        "visited": 0.6,
+        "normal": 0.8,
+        "flag": 0.6,
         "textFont": [
             "Noto Sans Regular"
         ], // 使用可能なフォント（spriteに依存）
-        "textSize": 10.5,
-        "textViewZoom": 15.5 // アイコンに文字を表示するズームレベル
+        "textSize": 14,
+        "textViewZoom": 14 // アイコンに文字を表示するズームレベル
     },
     "view": {
         "poiActLoad": true, // 起動時にActivityを読み込むか
@@ -111,6 +107,11 @@
         "main": [
             // トップメニュー一覧
             {
+                "glot-model": "official_site",
+                "linkto": "https://smaf.sanyodo.osaka/",
+                "divider": false
+            },
+            {
                 "glot-model": "about",
                 "linkto": "javascript:cMapMaker.about()",
                 "divider": false
@@ -122,7 +123,7 @@
             },
             {
                 "glot-model": "develop_site",
-                "linkto": "https://github.com/K-Sakanoshita/expo2025-maniacs",
+                "linkto": "https://github.com/armd-02/ShinHigaOtachi2025",
                 "divider": false
             }
         ],
@@ -130,8 +131,9 @@
             {
                 "glot-model": "openstreetmap",
                 "linkto": "https://www.openstreetmap.org/about",
-                "divider": true
-            },
+                "divider": false
+            }
+            /*
             {
                 "glot-model": "export_visited",
                 "linkto": "javascript:visitedCont.export()",
@@ -142,6 +144,7 @@
                 "linkto": "javascript:visitedCont.import()",
                 "divider": false
             }
+                */
         ],
         // 詳細表示のハンバーガーメニュー
         "modal": [

@@ -27,6 +27,10 @@
         "ja": "このサイトで使われているデータは、OpenStreetMapとプロジェクトのデータを組み合わせています。</a>",
         "en": "We are all collecting information about parks with playground equipment and making maps.<br>The data used is a combination of OpenStreetMap and playground equipment for everyone project.</a>"
     },
+    "official_site": {
+        "ja": "公式サイト(新大阪・三国アートフェス SMAF)",
+        "en": "Official website(Shin-Osaka Mikuni Art Festival SMAF)"
+    },
     "more_message": {
         "ja": "",
         "en": ""

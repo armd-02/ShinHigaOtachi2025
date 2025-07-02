@@ -88,7 +88,7 @@ window.addEventListener("DOMContentLoaded", function () {
             winCont.menu_make(mergedMenu, "main_menu");
             winCont.mouseDragScroll(images, cMapMaker.eventViewThumb); // set Drag Scroll on images
             glot.render();
-            cMapMaker.setSidebar()
+            winCont.setSidebar()
 
             const init_close = function () {
                 let cat = (UrlParams.category !== "" && UrlParams.category !== undefined) ? UrlParams.category : Conf.selectItem.default;
