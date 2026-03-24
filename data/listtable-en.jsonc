@@ -34,9 +34,9 @@
                 "name",
                 "memo"
             ],
-            "actFields": [
-                "#id",
-                "category",
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
+                "#id", // 最初の列は#id固定
+                "category", // listTableのフィルタ都合上。この位置にcategoryが必要
                 "keyword",
                 "title",
                 "memo"
